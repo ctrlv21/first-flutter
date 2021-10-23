@@ -15,14 +15,6 @@ class test extends StatefulWidget {
 class _testState extends State<test> {
   openurl(){
     launch('https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02?si=KWfz_wLMQHK2wCUzLi5-Kg&dl_branch=1');
-    /*if(await canLaunch('https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02?si=KWfz_wLMQHK2wCUzLi5-Kg&dl_branch=1')){
-      await launch ('https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02?si=KWfz_wLMQHK2wCUzLi5-Kg&dl_branch=1');
-    }
-    else
-      {
-        throw 'URL cant be found';
-      }*/
-
   }
 
 
@@ -59,8 +51,6 @@ class _testState extends State<test> {
               'uwu/t1.jpg',
               fit: BoxFit.fitHeight,
             )
-            //fit: BoxFit.fill,
-            //fit: BoxFit.fitWidth,
             ),
         Container(
           height: double.infinity,
